@@ -147,7 +147,6 @@ export const Details = ({ details = {},maxHeightRef }) => {
     price: price * (index + 1),
   }));
 
-  console.log(maxHeightRef);
   return (
     <Root ref={maxHeightRef}>
       <Container>

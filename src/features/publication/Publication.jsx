@@ -45,7 +45,6 @@ const Container = styled((props) => <Box {...props} />)(({ theme, main }) => {
 // TODO: This is your blank canvas :) From here, you can do whatever you want
 
 const Publication = ({ data, ...props }) => {
-  console.log(data);
   const maxHeightRef=useRef(null)
   const warranty = [
     {

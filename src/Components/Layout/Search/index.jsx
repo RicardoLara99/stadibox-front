@@ -119,7 +119,6 @@ export const Search = () => {
     try {
       setIsLoading(true);
       setShowResults(true);
-      console.log('result',searchTerm)
   
       const resultSearch=await getPublicationSearch(searchTerm)
       if(resultSearch){

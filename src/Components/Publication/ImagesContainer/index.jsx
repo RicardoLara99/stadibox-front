@@ -111,7 +111,6 @@ export const ImagesContainer = ({ images = [], maxHeightRef, ...props }) => {
     setActiveStep(step);
   };
 
-  console.log('##',maxHeight)
   return (
     <Root>
       {width > 719 ? (
